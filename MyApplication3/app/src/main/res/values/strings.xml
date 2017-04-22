@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_delete">Gesture for deletion</string>
+    <string name="desc_delete">Select the task and perform this gesture to delete.</string>
+    <string name="title_new_task">Gesture for new task</string>
+    <string name="desc_new_task">Perform this gesture anywhere on main screen to add new task.</string>
+    <string name="title_list">Gesture to list details</string>
+    <string name="desc_list">Perform this gesture to get details of all tasks.</string>
+    <string name="title_view">Gesture to view list of all tasks</string>
+    <string name="desc_view">Perform this gesture to list all tasks.</string>
+    <string name="title_undo">Gesture to undo previous action</string>
+    <string name="desc_undo">Perform this gesture to undo previous action.</string>
+    <string name="title_personal">Gesture to list personal tasks</string>
+    <string name="desc_personal">Perform this gesture to list personal tasks.</string>
+    <string name="title_work">Gesture to list work related tasks</string>
+    <string name="desc_work">Perform this gesture to list all work related tasks.</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eaishwary.myapplication"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="My to-do list"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".IntroActivity"
+            android:label="To-Do"></activity>
+
+        <activity
+            android:name=".Welcome"
+            android:label="To-Do"></activity>
+
+        <activity
+            android:name=".Help"
+            android:label="To-Do"></activity>
+
+        <activity
+            android:name=".TaskActivity"
+            android:label="To-Do"></activity>
+
+
+        <activity
+            android:name=".ReminderActivity"
+            android:label="To-Do"></activity>
+
+        <receiver android:name=".Task" android:process=":remote"/>
+
+        <!-- <activity android:name=".NotificationActivity"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+
+
+        <!-- &lt;!&ndash;<activity&ndash;&gt; -->
+        <!-- &lt;!&ndash;android:name="com.example.prajwal.nuiapp.NotificationView"&ndash;&gt; -->
+        <!-- &lt;!&ndash;android:label="My To-Do" >&ndash;&gt; -->
+        <!-- &lt;!&ndash;</activity>&ndash;&gt; -->
+
+    </application>
+
+</manifest>
